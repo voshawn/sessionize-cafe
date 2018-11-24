@@ -18,8 +18,6 @@ defmodule BakeryWeb.Endpoint do
   # Code reloading can be explicitly enabled under the
   # :code_reloader configuration of your endpoint.
   if code_reloading? do
-    socket "/phoenix/live_reload/socket", Phoenix.LiveReloader.Socket
-    plug Phoenix.LiveReloader
     plug Phoenix.CodeReloader
   end
 
@@ -40,7 +38,7 @@ defmodule BakeryWeb.Endpoint do
   plug Plug.Session,
     store: :cookie,
     key: "_bakery_key",
-    signing_salt: "krfxCPSX"
+    signing_salt: "n/H2wRHp"
 
   plug BakeryWeb.Router
 end

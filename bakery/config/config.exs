@@ -10,8 +10,8 @@ use Mix.Config
 # Configures the endpoint
 config :bakery, BakeryWeb.Endpoint,
   url: [host: "localhost"],
-  secret_key_base: "Hp0zWEqyInozZg6XzNw5YniQGGLxKiZx8uTwtlKaGbIAgUu7PV6T8GCH6m97yCxL",
-  render_errors: [view: BakeryWeb.ErrorView, accepts: ~w(html json)],
+  secret_key_base: "U5NAW+BbmlNx5FyHuxbVlKCiIcMD3HH6b+gpJwqJNfQKjMVibYzUGE/hjqjBJgfV",
+  render_errors: [view: BakeryWeb.ErrorView, accepts: ~w(json)],
   pubsub: [name: Bakery.PubSub, adapter: Phoenix.PubSub.PG2]
 
 # Configures Elixir's Logger
