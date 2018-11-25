@@ -1,5 +1,7 @@
 # Cafe
 
+This is the backend for `sessionize-chrome-extension`
+
 To start your Phoenix server:
 
   * Install dependencies with `mix deps.get`
