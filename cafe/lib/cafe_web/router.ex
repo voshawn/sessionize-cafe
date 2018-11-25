@@ -22,6 +22,7 @@ defmodule CafeWeb.Router do
   # Other scopes may use custom stacks.
   scope "/api", CafeWeb do
     pipe_through :api
-    get "/session", SessionController, :index
+    get "/session", SessionController, :get
+    post "/session", SessionController, :store
   end
 end

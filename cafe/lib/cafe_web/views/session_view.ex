@@ -1,11 +1,9 @@
 defmodule CafeWeb.SessionView do
   use CafeWeb, :view
 
-  def render("test.json", %{user: user}) do
+  def render("data.json", %{data: data}) do
     %{
-      data: %{
-        user: user
-      }
+      data: data
     }
   end
 end
