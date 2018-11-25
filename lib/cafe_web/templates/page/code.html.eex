@@ -1,0 +1,13 @@
+<section class="phx-hero">
+  <h1>Download chrome extension to accept this session:</h1>
+  <p><%= "%{url}", url:"www.google.com" %> </p>
+</section>
+
+<section class="row">
+  <article class="column">
+    <h2>Download</h2>
+  </article>
+  <article class="column">
+    <h2>FAQs</h2>
+  </article>
+</section>

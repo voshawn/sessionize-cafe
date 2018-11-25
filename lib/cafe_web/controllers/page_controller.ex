@@ -4,4 +4,8 @@ defmodule CafeWeb.PageController do
   def index(conn, _params) do
     render(conn, "index.html")
   end
+
+  def code(conn, _params) do
+    render(conn, "code.html")
+  end
 end
