@@ -1,12 +1,39 @@
 <section class="phx-hero">
   <h3>Invalid or Expired Code</h3>
+  <br/>
+  <a href="https://github.com/voshawn/sessionize-chrome-extension">Download Extension</a></li>
 </section>
 
 <section class="row">
   <article class="column">
-    <h2>FAQs</h2>
+    <h2>Use Cases</h2>
+    <ul>
+      <li>
+        Share your account with an assistant
+      </li>
+      <li>
+        Share access to sites accessible by oauth login only (e.g. facebook login)
+      </li>
+      <li>
+        Send articles behind paywalls
+      </li>
+      <li>
+        Let your group add food to a shared cart
+      </li>
+    </ul>
   </article>
   <article class="column">
-    <h2>Download</h2>
+    <h2>Things to Know</h2>
+    <ul>
+      <li>
+        ONLY SHARE WITH PEOPLE YOU TRUST
+      </li>
+      <li>
+        Links expire after 12 hours
+      </li>
+      <li>
+        We don't store any of the data on our servers
+      </li>
+    </ul>
   </article>
 </section>

@@ -1,34 +1,39 @@
 <section class="phx-hero">
-  <h1><%= gettext "Welcome to %{name}!", name: "Phoenix" %></h1>
-  <p>A productive web framework that<br/>does not compromise speed and maintainability.</p>
+  <h1> Just Sessionize Me </h1>
+  <p>A Google Chrome extension that lets you <br/> share your browser session with others. </p>
+  <br/>
+  <a href="https://github.com/voshawn/sessionize-chrome-extension">Download Extension</a></li>
 </section>
 
 <section class="row">
   <article class="column">
-    <h2>Resources</h2>
+    <h2>Use Cases</h2>
     <ul>
       <li>
-        <a href="https://hexdocs.pm/phoenix/overview.html">Guides &amp; Docs</a>
+        Share your account with an assistant
       </li>
       <li>
-        <a href="https://github.com/phoenixframework/phoenix">Source</a>
+        Share access to sites accessible by oauth login only (e.g. facebook login)
       </li>
       <li>
-        <a href="https://github.com/phoenixframework/phoenix/blob/v1.4/CHANGELOG.md">v1.4 Changelog</a>
+        Send articles behind paywalls
+      </li>
+      <li>
+        Let your group add food to a shared cart
       </li>
     </ul>
   </article>
   <article class="column">
-    <h2>Help</h2>
+    <h2>Things to Know</h2>
     <ul>
       <li>
-        <a href="https://elixirforum.com/c/phoenix-forum">Forum</a>
+        ONLY SHARE WITH PEOPLE YOU TRUST
       </li>
       <li>
-        <a href="https://webchat.freenode.net/?channels=elixir-lang">#elixir-lang on Freenode IRC</a>
+        Links expire after 12 hours
       </li>
       <li>
-        <a href="https://twitter.com/elixirphoenix">Twitter @elixirphoenix</a>
+        We don't store any of the data on our servers
       </li>
     </ul>
   </article>

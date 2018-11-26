@@ -6,16 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Sessionize</title>
     <link rel="stylesheet" href="<%= Routes.static_path(@conn, "/css/app.css") %>"/>
+    <link rel="icon" type="image/x-icon" href="<%= Routes.static_path(@conn, "/images/favicon.ico") %>" >
   </head>
   <body>
     <header>
       <section class="container">
         <nav role="navigation">
           <ul>
-            <li><a href="https://hexdocs.pm/phoenix/overview.html">Download Extension</a></li>
+            <li><a href="https://github.com/voshawn/sessionize-chrome-extension">Download Extension</a></li>
           </ul>
         </nav>
-        <a href="http://phoenixframework.org/" class="phx-logo">
+        <a href="http://www.sessionize.me" class="phx-logo">
           <img src="<%= Routes.static_path(@conn, "/images/sessionize.png") %>" alt="Sessionize Logo"/>
         </a>
       </section>
