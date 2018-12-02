@@ -11,6 +11,7 @@ config :cafe, CafeWeb.Endpoint,
   debug_errors: true,
   code_reloader: true,
   check_origin: false,
+  secret_key_base: "devsupersecretkey",
   watchers: [
     node: [
       "node_modules/webpack/bin/webpack.js",

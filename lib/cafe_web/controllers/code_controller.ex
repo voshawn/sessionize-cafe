@@ -1,8 +1,8 @@
 defmodule CafeWeb.CodeController do
   use CafeWeb, :controller
 
-  def index(conn, %{"id" => code} = params) do
-    data = Store.get(code)
+  def index(conn, %{"iv" => iv, "ct" => ct} = _params) do
+    data = Store.get([iv, ct])
     render(conn, "index.html", url: data["url"])
   end
 
