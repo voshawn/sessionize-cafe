@@ -2,7 +2,7 @@
   <h3>Download our extension to accept this session:</h3>
   <p><%= @url %> </p>
   <br/>
-  <a href="https://github.com/voshawn/sessionize-chrome-extension">Download Extension</a></li>
+  <a href="https://chrome.google.com/webstore/detail/sessionize/nhncoohaekcdjbjilepkhklgknnphbbp">Download Extension</a></li>
 </section>
 
 <section class="row">
