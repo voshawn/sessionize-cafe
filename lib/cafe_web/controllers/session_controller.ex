@@ -10,7 +10,6 @@ defmodule CafeWeb.SessionController do
   end
 
   def store(conn, params) do
-    IO.inspect(params)
     [iv, ct] = Store.create(params)
     render(conn, "data.json", data: %{"iv" => iv, "ct" => ct})
   end
