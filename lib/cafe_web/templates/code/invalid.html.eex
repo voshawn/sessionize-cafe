@@ -1,7 +1,8 @@
 <section class="phx-hero">
   <h3>Invalid or Expired Code</h3>
+  <p>Please check your code and try again.</p>
   <br/>
-  <a href="https://github.com/voshawn/sessionize-chrome-extension">Download Extension</a></li>
+  <a href="https://chrome.google.com/webstore/detail/sessionize/nhncoohaekcdjbjilepkhklgknnphbbp">Download Extension</a></li>
 </section>
 
 <section class="row">

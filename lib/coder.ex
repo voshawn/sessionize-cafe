@@ -4,11 +4,11 @@ defmodule Coder do
     |> :erlang.pid_to_list
     |> to_string
     |> encrypt
-    |> Enum.map(fn x -> Base.url_encode64(x) end)
+    |> Enum.map(fn x -> Base.url_encode64(x, [padding: false]) end)
   end
   def decode_to_pid(list) do
     list
-    |> Enum.map(fn x -> Base.url_decode64!(x) end)
+    |> Enum.map(fn x -> Base.url_decode64!(x, [padding: false]) end)
     |> decrypt
     |> to_charlist
     |> :erlang.list_to_pid
